@@ -1,5 +1,5 @@
-#include "FiguraPlaska.hpp"
 #pragma once
+#include "FiguraPlaska.hpp"
 
 class Prostokat : public FiguraPlaska {
 private:

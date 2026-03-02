@@ -1,5 +1,5 @@
+#pragma once
 #include "FiguraPlaska.hpp"
-# pragma once
 
 class Trojkat : public FiguraPlaska {
 private:

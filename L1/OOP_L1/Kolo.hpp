@@ -1,5 +1,5 @@
-#include "FiguraPlaska.hpp"
 #pragma once
+#include "FiguraPlaska.hpp"
 
 class Kolo : public FiguraPlaska
 {

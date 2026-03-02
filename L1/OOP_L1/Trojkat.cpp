@@ -1,4 +1,5 @@
 #include "Trojkat.hpp"
+#include <cmath>
 using namespace std;
 
 Trojkat::Trojkat() {
