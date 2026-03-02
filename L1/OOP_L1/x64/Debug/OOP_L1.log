@@ -1,0 +1,453 @@
+﻿  FiguraPlaska.cpp
+  Kolo.cpp
+  Prostokat.cpp
+  main.cpp
+  Trojkat.cpp
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\FiguraPlaska.hpp(3,7): error C2011: 'FiguraPlaska': 'class' type redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\FiguraPlaska.hpp(3,7):
+      see declaration of 'FiguraPlaska'
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Trojkat.hpp(4,24): error C2504: 'FiguraPlaska': base class undefined
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Trojkat.hpp(8,7): error C3668: 'Trojkat::Wypisz': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Trojkat.hpp(18,9): error C3668: 'Trojkat::Obwod': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Trojkat.hpp(19,9): error C3668: 'Trojkat::Pole': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Trojkat.hpp(20,3): error C3668: 'Trojkat::~Trojkat': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Kolo.hpp(4,21): error C2504: 'FiguraPlaska': base class undefined
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Kolo.hpp(9,7): error C3668: 'Kolo::Wypisz': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Kolo.hpp(15,9): error C3668: 'Kolo::Obwod': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Kolo.hpp(16,9): error C3668: 'Kolo::Pole': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\Kolo.hpp(17,3): error C3668: 'Kolo::~Kolo': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'main.cpp')
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'Trojkat' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(480,39):
+      could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': cannot convert argument 2 from 'Trojkat' to 'std::basic_streambuf<char,std::char_traits<char>> *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(448,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': cannot convert argument 2 from 'Trojkat' to 'const void *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(430,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': cannot convert argument 2 from 'Trojkat' to 'long double'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(412,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': cannot convert argument 2 from 'Trojkat' to 'double'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(394,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': cannot convert argument 2 from 'Trojkat' to 'float'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(376,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': cannot convert argument 2 from 'Trojkat' to 'unsigned __int64'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(358,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': cannot convert argument 2 from 'Trojkat' to '__int64'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(340,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': cannot convert argument 2 from 'Trojkat' to 'unsigned long'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(322,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': cannot convert argument 2 from 'Trojkat' to 'long'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(303,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': cannot convert argument 2 from 'Trojkat' to 'unsigned int'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(277,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': cannot convert argument 2 from 'Trojkat' to 'int'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(258,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': cannot convert argument 2 from 'Trojkat' to 'unsigned short'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(224,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': cannot convert argument 2 from 'Trojkat' to 'short'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(206,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': cannot convert argument 2 from 'Trojkat' to 'bool'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(200,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': cannot convert argument 2 from 'Trojkat' to 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(194,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Trojkat' to 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(189,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Trojkat' to 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1031,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'const std::error_code &'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              Reason: cannot convert from 'Trojkat' to 'const std::error_code'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1005,9):
+      or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1004,103):
+              '<template-parameter>': you cannot create a pointer to a reference
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(947,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'unsigned char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(941,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'const unsigned char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(936,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'signed char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(930,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'const signed char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(894,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+              could be 'Trojkat'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+              or       'char'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'Trojkat'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(851,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'Trojkat'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(813,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(768,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'const char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(732,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(688,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+          'initializing': cannot convert from 'Trojkat' to 'const char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3792,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'Trojkat'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(1984,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'Trojkat'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3444,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'Trojkat'
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(64,2):
+      while trying to match the argument list '(std::ostream, Trojkat)'
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'Kolo' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(480,39):
+      could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': cannot convert argument 2 from 'Kolo' to 'std::basic_streambuf<char,std::char_traits<char>> *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(448,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': cannot convert argument 2 from 'Kolo' to 'const void *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(430,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': cannot convert argument 2 from 'Kolo' to 'long double'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(412,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': cannot convert argument 2 from 'Kolo' to 'double'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(394,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': cannot convert argument 2 from 'Kolo' to 'float'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(376,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': cannot convert argument 2 from 'Kolo' to 'unsigned __int64'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(358,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': cannot convert argument 2 from 'Kolo' to '__int64'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(340,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': cannot convert argument 2 from 'Kolo' to 'unsigned long'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(322,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': cannot convert argument 2 from 'Kolo' to 'long'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(303,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': cannot convert argument 2 from 'Kolo' to 'unsigned int'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(277,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': cannot convert argument 2 from 'Kolo' to 'int'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(258,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': cannot convert argument 2 from 'Kolo' to 'unsigned short'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(224,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': cannot convert argument 2 from 'Kolo' to 'short'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(206,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': cannot convert argument 2 from 'Kolo' to 'bool'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(200,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': cannot convert argument 2 from 'Kolo' to 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(194,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Kolo' to 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(189,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': cannot convert argument 2 from 'Kolo' to 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1031,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'const std::error_code &'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              Reason: cannot convert from 'Kolo' to 'const std::error_code'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1005,9):
+      or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(1004,103):
+              '<template-parameter>': you cannot create a pointer to a reference
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(947,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'unsigned char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(941,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'const unsigned char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(936,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'signed char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(930,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'const signed char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(894,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+              could be 'Kolo'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+              or       'char'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'Kolo'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(851,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'Kolo'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(813,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(768,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'const char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(732,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'char'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(688,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+          'initializing': cannot convert from 'Kolo' to 'const char *'
+              C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,10):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3792,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'Kolo'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(1984,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'Kolo'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(3444,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'Kolo'
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(100,2):
+      while trying to match the argument list '(std::ostream, Kolo)'
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(126,14): error C2440: '=': cannot convert from 'Trojkat *' to 'FiguraPlaska *'
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(126,14):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(127,14): error C2440: '=': cannot convert from 'Trojkat *' to 'FiguraPlaska *'
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(127,14):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(128,14): error C2440: '=': cannot convert from 'Kolo *' to 'FiguraPlaska *'
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(128,14):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(129,14): error C2440: '=': cannot convert from 'Kolo *' to 'FiguraPlaska *'
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(129,14):
+      Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(132,51): error C2027: use of undefined type 'FiguraPlaska'
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\FiguraPlaska.hpp(3,7):
+      see declaration of 'FiguraPlaska'
+  
+C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\main.cpp(138,3): warning C4150: deletion of pointer to incomplete type 'FiguraPlaska'; no destructor called
+      C:\Users\kacpe\Documents\Programowanie\PG\OOP\LABS\L1\OOP_L1\FiguraPlaska.hpp(3,7):
+      see declaration of 'FiguraPlaska'
+  
+  Generating Code...
