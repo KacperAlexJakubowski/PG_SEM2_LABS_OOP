@@ -1,9 +1,11 @@
 #include "Prostokat.hpp"
-#include "Trojkat.hpp"
+#include "TrojkatProstokatny.hpp"
+#include "TrojkatRownoboczny.hpp"
+#include "TrojkatInny.hpp"
 #include "Kolo.hpp"
 using namespace std;
 
-#define ROZMIAR 6
+#define ROZMIAR 7
 
 int main() {
 	// obiekt klasy Prostokat zdefiniowany poprzez zmiennπ lokalnπ
@@ -43,43 +45,54 @@ int main() {
 
 	// -----------------------------------------------------------
 
-	// obiekt klasy Trojkat zdefiniowany poprzez zmiennπ lokalnπ
+	// obiekt klasy TrojkatProstokatny zdefiniowany poprzez wskaünik
 
-	Trojkat trojkat1;
-	Trojkat* trojkat1_ptr = &trojkat1;
+	TrojkatProstokatny* trojkat_prost = new TrojkatProstokatny(3, 4);
 
-	trojkat1.SetA(3);
-	trojkat1.SetB(4);
-	trojkat1.SetC(5);
-
-	cout << "a = " << trojkat1.GetA() << endl;
-	cout << "b = " << trojkat1.GetB() << endl;
-	cout << "c = " << trojkat1.GetC() << endl;
+	cout << "a = " << trojkat_prost->GetA() << endl;
+	cout << "b = " << trojkat_prost->GetB() << endl;
+	cout << "c = " << trojkat_prost->GetC() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod trojkata 1: " << trojkat1.Obwod() << endl;
-	cout << "Pole trojkata 1: " << trojkat1.Pole() << endl;
+	cout << "Obwod trojkata prostokatnego: " << trojkat_prost->Obwod() << endl;
+	cout << "Pole trojkata prostokatnego: " << trojkat_prost->Pole() << endl;
 
 	// wykorzystanie operatora wypisania
-	cout << trojkat1 << endl;
+	cout << *trojkat_prost << endl;
 
 	// -----------------------------------------------------------
 
-	// obiekt klasy Trojkat zdefiniowany poprzez wskaünik
+	// obiekt klasy TrojkatRownoboczny zdefiniowany poprzez wskaünik
 
-	// wykorzystanie przeciπøenia konstruktora
-	Trojkat* trojkat2 = new Trojkat(2, 3 , 4);
+	TrojkatRownoboczny* trojkat_rowno = new TrojkatRownoboczny(2);
 
-	cout << "a = " << trojkat2->GetA() << endl;
-	cout << "b = " << trojkat2->GetB() << endl;
-	cout << "c = " << trojkat2->GetC() << endl;
+	cout << "a = " << trojkat_rowno->GetA() << endl;
+	cout << "b = " << trojkat_rowno->GetB() << endl;
+	cout << "c = " << trojkat_rowno->GetC() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod trojkata 2: " << trojkat2->Obwod() << endl;
-	cout << "Pole trojkata 2: " << trojkat2->Pole() << endl;
+	cout << "Obwod trojkata rownobocznego: " << trojkat_rowno->Obwod() << endl;
+	cout << "Pole trojkata rownobocznego: " << trojkat_rowno->Pole() << endl;
 
 	// wykorzystanie operatora wypisania
-	cout << *trojkat2 << endl;
+	cout << *trojkat_rowno << endl;
+
+	// -----------------------------------------------------------
+
+	// obiekt klasy TrojkatInny zdefiniowany poprzez wskaünik
+
+	TrojkatInny* trojkat_inny = new TrojkatInny(3, 4, 5);
+
+	cout << "a = " << trojkat_inny->GetA() << endl;
+	cout << "b = " << trojkat_inny->GetB() << endl;
+	cout << "c = " << trojkat_inny->GetC() << endl;
+
+	// wykorzystanie overrideowanych metod
+	cout << "Obwod trojkata innego: " << trojkat_inny->Obwod() << endl;
+	cout << "Pole trojkata innego: " << trojkat_inny->Pole() << endl;
+
+	// wykorzystanie operatora wypisania
+	cout << *trojkat_inny << endl;
 
 	// -----------------------------------------------------------
 
@@ -117,26 +130,29 @@ int main() {
 
 	// -----------------------------------------------------------
 
-	// DowÛd na dzia≥ajπcy polimofizm
+	// DowÛd na dzia≥ajπcy polimofizm i overridowanie metod
 
 	FiguraPlaska* figury[ROZMIAR];
 
 	figury[0] = prostokat1_ptr;
 	figury[1] = prostokat2;
-	figury[2] = trojkat1_ptr;
-	figury[3] = trojkat2;
-	figury[4] = kolo1_ptr;
-	figury[5] = kolo2;
+	figury[2] = trojkat_prost;
+	figury[3] = trojkat_rowno;
+	figury[4] = trojkat_inny;
+	figury[5] = kolo1_ptr;
+	figury[6] = kolo2;
 
 	for (int i = 0; i < ROZMIAR; i++) {
-		cout << "Obwod figury " << i << ": " << figury[i]->Obwod() << endl;
+		cout << "Obwod figury " << i+1 << ": " << figury[i]->Obwod() << endl;
 	}
 	cout << endl;
 
 	// Destrukcja obiektÛw
 	
 	delete prostokat2;
-	delete trojkat2;
+	delete trojkat_prost;
+	delete trojkat_rowno;
+	delete trojkat_inny;
 	delete kolo2;
 
 	return 0;

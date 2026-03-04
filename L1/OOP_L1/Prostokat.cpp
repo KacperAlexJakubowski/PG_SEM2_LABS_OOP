@@ -6,13 +6,15 @@ Prostokat::Prostokat() {
 	this->a = 0;
 	this->b = 0;
 	cout << "**Konstruktor bezparametrowy Prostokat(" << a << "," << b << ")" << endl;
-
+	licznik++;
+	cout << "1 figura z " << this->licznik << endl;
 }
 
-Prostokat::Prostokat(double a, double b)
-	: a(a), b(b)
+Prostokat::Prostokat(double a, double b): a(a), b(b)
 {
 	cout << "**Konstruktor Prostokat(" << a << "," << b << ")" << endl;
+	licznik++;
+	cout << "1 figura z " << this->licznik << endl;
 }
 
 double Prostokat::GetA() const {
@@ -52,4 +54,6 @@ Prostokat::~Prostokat() {
 	cout << "**Destruktor Prostokat:" << endl;
 	cout << "a = " << this->a << endl;
 	cout << "b = " << this->b << endl;
+	licznik--;
+	cout << "Pozosta³o figur: " << this->licznik << endl;
 }

@@ -1,0 +1,13 @@
+abstrakcja - przedstawienie obiektów w formie uogólnionych klas. Abstrakcyjna klasa jest fundamentem do budowy klas potomnych.
+
+dziedziczenie - umożliwia dziedziczenie / dostęp do atrybutów i metod z klasy bazowej w klasach potomnych
+
+polimorfizm (wielopostaciowość) - dzięki niemu możemy nadpisywać metody wirtualne bądź czysto wirtualne z klasy bazowej w klasach potomnych tzw. overriding. Innymi słowy tworząc tablicę obiektów wywodzących się od różnych klas, ale będących potomkami jednej klasy bazowej możemy obsługiwać obiekty w sposób zależny od ich charakterystyki. Inaczej zachowa się metoda jedź dla deskorolki od jedz dla hulajnogi.
+
+Wywołując metodę wypisz na wskaźniku typu FiguraPlaska, który wskazuje na obiekt typu Prostokat, wywołujemy metodę wypisz właściwą dla klasy Prostokat.
+
+klasa abstrakcyjna - klasa zawierająca metody czysto wirtualne. Nie można utworzyć obiektu takiej klasy.
+
+hermetyzacja (enkapsulacja) - służy do zawężania zasięgu / ukrywania informacji o wrażliwych atrybutach lub metodach z klasy. Zapewnia bezpieczeństwo działania obiektu np. poprzez wymuszenie działania na publicznych metodach zamiast ręcznej modyfikacji atrybutów. Blokuje dostęp do atrybutów z poziomu funkcji main.
+
+friend - umożliwia metodzie dostęp do prywatnych i chronionych składowych klasy. Zaprzyjaźniona może być klasa albo metoda. 
