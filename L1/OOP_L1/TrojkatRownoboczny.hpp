@@ -12,7 +12,7 @@ public:
 	double GetB() const;
 	double GetC() const;
 	void SetA(double a);
-	double Obwod() const override;
+	double Obwód() const override;
 	double Pole() const override;
 	~TrojkatRownoboczny() override;
 };

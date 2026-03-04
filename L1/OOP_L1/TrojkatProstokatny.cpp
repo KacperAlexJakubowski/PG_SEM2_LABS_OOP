@@ -5,8 +5,7 @@ using namespace std;
 TrojkatProstokatny::TrojkatProstokatny(double a, double b) : a(a), b(b) {
 	this->c = sqrt((a * a) + (b * b));
 	cout << "**Konstruktor TrojkatProstokatny(" << a << "," << b << ", " << c << ")" << endl;
-	licznik++;
-	cout << "1 figura z " << this->licznik << endl;
+	cout << "1 figura z " << FiguraPlaska::licznik << endl;
 }
 
 double TrojkatProstokatny::GetA() const {
@@ -29,7 +28,7 @@ void TrojkatProstokatny::SetB(double b) {
 	this->b = b;
 }
 
-double TrojkatProstokatny::Obwod() const {
+double TrojkatProstokatny::Obwód() const {
 	double obw = this->a + this->b + this->c;
 
 	return obw;
@@ -56,7 +55,6 @@ TrojkatProstokatny::~TrojkatProstokatny() {
 	cout << "a = " << this->a << endl;
 	cout << "b = " << this->b << endl;
 	cout << "c = " << this->c << endl;
-	licznik--;
-	cout << "Pozosta³o figur: " << this->licznik << endl;
+	cout << "Pozosta³o figur: " << FiguraPlaska::licznik << endl;
 }
 

@@ -8,6 +8,8 @@ using namespace std;
 #define ROZMIAR 7
 
 int main() {
+	setlocale(LC_ALL, "pl_PL");
+
 	// obiekt klasy Prostokat zdefiniowany poprzez zmienn¹ lokaln¹
 
 	Prostokat prostokat1;
@@ -20,7 +22,7 @@ int main() {
 	cout << "b = " << prostokat1.GetB() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod prostokata 1: " << prostokat1.Obwod() << endl;
+	cout << "Obwód prostokata 1: " << prostokat1.Obwód() << endl;
 	cout << "Pole prostokata 1: " << prostokat1.Pole() << endl;
 
 	// wykorzystanie operatora wypisania
@@ -37,7 +39,7 @@ int main() {
 	cout << "b = " << prostokat2->GetB() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod prostokata 2: " << prostokat2->Obwod() << endl;
+	cout << "Obwód prostokata 2: " << prostokat2->Obwód() << endl;
 	cout << "Pole prostokata 2: " << prostokat2->Pole() << endl;
 
 	// wykorzystanie operatora wypisania
@@ -54,7 +56,7 @@ int main() {
 	cout << "c = " << trojkat_prost->GetC() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod trojkata prostokatnego: " << trojkat_prost->Obwod() << endl;
+	cout << "Obwód trojkata prostokatnego: " << trojkat_prost->Obwód() << endl;
 	cout << "Pole trojkata prostokatnego: " << trojkat_prost->Pole() << endl;
 
 	// wykorzystanie operatora wypisania
@@ -71,7 +73,7 @@ int main() {
 	cout << "c = " << trojkat_rowno->GetC() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod trojkata rownobocznego: " << trojkat_rowno->Obwod() << endl;
+	cout << "Obwód trojkata rownobocznego: " << trojkat_rowno->Obwód() << endl;
 	cout << "Pole trojkata rownobocznego: " << trojkat_rowno->Pole() << endl;
 
 	// wykorzystanie operatora wypisania
@@ -88,7 +90,7 @@ int main() {
 	cout << "c = " << trojkat_inny->GetC() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod trojkata innego: " << trojkat_inny->Obwod() << endl;
+	cout << "Obwód trojkata innego: " << trojkat_inny->Obwód() << endl;
 	cout << "Pole trojkata innego: " << trojkat_inny->Pole() << endl;
 
 	// wykorzystanie operatora wypisania
@@ -106,7 +108,7 @@ int main() {
 	cout << "r = " << kolo1.GetR() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod kola 1: " << kolo1.Obwod() << endl;
+	cout << "Obwód kola 1: " << kolo1.Obwód() << endl;
 	cout << "Pole kola 1: " << kolo1.Pole() << endl;
 
 	// wykorzystanie operatora wypisania
@@ -122,7 +124,7 @@ int main() {
 	cout << "r = " << kolo2->GetR() << endl;
 
 	// wykorzystanie overrideowanych metod
-	cout << "Obwod kola 2: " << kolo2->Obwod() << endl;
+	cout << "Obwód kola 2: " << kolo2->Obwód() << endl;
 	cout << "Pole kola 2: " << kolo2->Pole() << endl;
 
 	// wykorzystanie operatora wypisania
@@ -143,7 +145,7 @@ int main() {
 	figury[6] = kolo2;
 
 	for (int i = 0; i < ROZMIAR; i++) {
-		cout << "Obwod figury " << i+1 << ": " << figury[i]->Obwod() << endl;
+		cout << "Obwód figury " << i+1 << ": " << figury[i]->Obwód() << endl;
 	}
 	cout << endl;
 

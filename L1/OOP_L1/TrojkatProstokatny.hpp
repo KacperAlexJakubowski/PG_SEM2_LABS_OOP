@@ -13,7 +13,7 @@ public:
 	double GetB() const;
 	void SetB(double b);
 	double GetC() const;
-	double Obwod() const override;
+	double Obwód() const override;
 	double Pole() const override;
 	~TrojkatProstokatny() override;
 };

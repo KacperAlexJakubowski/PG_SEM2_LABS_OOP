@@ -12,7 +12,7 @@ public:
 	Kolo(double r);
 	double GetR() const;
 	void SetR(double r);
-	double Obwod() const override;
+	double Obwód() const override;
 	double Pole() const override;
 	~Kolo() override;
 };

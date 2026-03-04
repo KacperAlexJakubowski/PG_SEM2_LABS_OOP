@@ -13,7 +13,7 @@ public:
 	void SetA(double a);
 	double GetB() const;
 	void SetB(double b);
-	double Obwod() const override;
+	double Obwód() const override;
 	double Pole() const override;
 	~Prostokat() override;
 };

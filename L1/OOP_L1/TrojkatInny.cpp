@@ -7,14 +7,12 @@ TrojkatInny::TrojkatInny() {
 	this->b = 0;
 	this->c = 0;
 	cout << "**Konstruktor bezparametrowy TrojkatInny(" << a << "," << b << "," << c << ")" << endl;
-	licznik++;
-	cout << "1 figura z " << this->licznik << endl;
+	cout << "1 figura z " << FiguraPlaska::licznik << endl;
 }
 
 TrojkatInny::TrojkatInny(double a, double b, double c) : a(a), b(b), c(c) {
 	cout << "**Konstruktor TrojkatInny(" << a << "," << b << "," << c << ")" << endl;
-	licznik++;
-	cout << "1 figura z " << this->licznik << endl;
+	cout << "1 figura z " << FiguraPlaska::licznik << endl;
 }
 
 double TrojkatInny::GetA() const {
@@ -41,14 +39,14 @@ void TrojkatInny::SetC(double c) {
 	this->c = c;
 }
 
-double TrojkatInny::Obwod() const {
+double TrojkatInny::Obwód() const {
 	double obw = this->a + this->b + this->c;
 
 	return obw;
 }
 
 double TrojkatInny::Pole() const {
-	double p = this->Obwod() / 2;
+	double p = this->Obwód() / 2;
 	double pole = sqrt(p * (p - this->a) * (p - this->b) * (p - this->c));
 
 	return pole;
@@ -68,7 +66,6 @@ TrojkatInny::~TrojkatInny() {
 	cout << "a = " << this->a << endl;
 	cout << "b = " << this->b << endl;
 	cout << "c = " << this->c << endl;
-	licznik--;
-	cout << "Pozosta³o figur: " << this->licznik << endl;
+	cout << "Pozosta³o figur: " << FiguraPlaska::licznik << endl;
 }
 

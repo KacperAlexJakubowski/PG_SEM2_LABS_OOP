@@ -15,7 +15,7 @@ public:
 	void SetB(double b);
 	double GetC() const;
 	void SetC(double c);
-	double Obwod() const override;
+	double Obwód() const override;
 	double Pole() const override;
 	~TrojkatInny() override;
 };

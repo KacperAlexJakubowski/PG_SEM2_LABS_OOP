@@ -8,8 +8,7 @@ TrojkatRownoboczny::TrojkatRownoboczny(double a) : a(a)
 	this->b = this->a;
 	this->c = this->a;
 	cout << "**Konstruktor TrojkatRownoboczny(" << a << ", " << a << ", " << a << ")" << endl;
-	licznik++;
-	cout << "1 figura z " << this->licznik << endl;
+	cout << "1 figura z " << FiguraPlaska::licznik << endl;
 }
 
 double TrojkatRownoboczny::GetA() const {
@@ -28,7 +27,7 @@ double TrojkatRownoboczny::GetC() const {
 	return c;
 }
 
-double TrojkatRownoboczny::Obwod() const {
+double TrojkatRownoboczny::Obwód() const {
 	double obw = 3 * this->a;
 
 	return obw;
@@ -51,6 +50,5 @@ TrojkatRownoboczny::~TrojkatRownoboczny() {
 	cout << "a = " << this->a << endl;
 	cout << "b = " << this->a << endl;
 	cout << "c = " << this->a << endl;
-	licznik--;
-	cout << "Pozosta³o figur: " << this->licznik << endl;
+	cout << "Pozosta³o figur: " << FiguraPlaska::licznik << endl;
 }
